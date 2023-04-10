@@ -1,8 +1,10 @@
 import ProjectDescription
 import ProjectDescriptionHelpers
 
-let project = Project.app(
-    name: "ExampleProject",
+let project = Project.framework(
+    name: "JunhaServiceProject",
     platform: .iOS,
-    additionalTargets: ["ExampleKit", "ExampleUI"]
+    isTestable: false,
+    dependencies: [
+    ]
 )

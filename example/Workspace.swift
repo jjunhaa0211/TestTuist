@@ -4,9 +4,9 @@ import ProjectDescriptionHelpers
 let workspace = Workspace(
     name: "Junha-Workspace",
     projects: [
-        "Application",
-        "Services/**",
-        "Modules/**"
+        "Projects/Application",
+        "Projects/Service/**",
+//        "Modules/**"
     ],
     fileHeaderTemplate: nil,
     additionalFiles: []
