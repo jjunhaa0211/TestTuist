@@ -9,11 +9,11 @@ import ProjectDescription
 import ProjectDescriptionHelpers
 
 let project = Project.app(
-    name: "JunhaApp",
+    name: "Info-iOS",
     platform: .iOS,
     iOSTargetVersion: "15.0",
     infoPlist: "Resources/App.plist",
     dependencies: [
-        .project(target: "JunhaHouse", path: .relativeToCurrentFile("../JunhaHouse"))
+        .project(target: "Info-iOS", path: .relativeToCurrentFile("../Info-iOS"))
     ]
 )
